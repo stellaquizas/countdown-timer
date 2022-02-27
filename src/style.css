@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+    color: whitesmoke;
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1528139494595-a848e52c6335?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 500px 650px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timer {
+    display: flex;
+}
+
+.timer >div {
+    padding-left: 3rem;
+}
+
+.counts {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 3rem;
+}
